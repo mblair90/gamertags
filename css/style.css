@@ -1,0 +1,81 @@
+html, body {
+	background: #107c10;
+	height: 100%;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #f1f1f1;
+}
+
+.container {
+	height: 100%;
+}
+
+.btn {
+	background-color: #5dc21e !important;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	background-color: #000000;
+}
+
+input[type=text] {
+	color: #f1f1f1;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 90%;
+}
+
+.exists {
+	border: 2px black solid;
+	border-radius: 15px;
+	visibility: visible;
+	line-height: 5;
+	background: #bf2424;
+	animation: shake;
+	animation-duration: .5s;
+}
+
+.notexists {
+	border: 2px #00e676 solid;
+	border-radius: 15px;
+	visibility: visible;
+	line-height: 5;
+	background: #1aa81d;
+	animation: shake;
+	animation-duration: .5s;
+}
+
+.noresult {
+	visibility: hidden;
+	height: 79px;
+}
+
+#result {
+	margin-top: 15px;
+}
+
+
+@keyframes shake {
+	0% {transform : translate3d(-5px,0,0);}
+	33% {transform: translate3d(5px,0,0);}
+}
+
+@media only screen and (min-width: 601px) {
+  .container {
+    width: 85%;
+  }
+}
+@media only screen and (min-width: 993px) {
+  .container {
+    width: 35%;
+  }
