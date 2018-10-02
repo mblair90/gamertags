@@ -14,6 +14,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
 	<link href="css/style.css" rel="stylesheet">
+	<link rel="shortcut icon" href="./favicon.png" />
 
 	<meta charset="UTF-8">
 	<meta name="description" content="A simple, lightweight tool to check if Xbox gamertags are taken.">
