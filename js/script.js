@@ -12,17 +12,19 @@ document.getElementById('search-form').addEventListener('submit', function(e) {
 		if (request.readyState === 4 && request.status === 200) {
 			// Response from AJAX request
 			var res = request.responseText;
-			// Check if the gamertag exists
+			// Check if the gamertag exists and update result div
 			if (res === '200') {
 				var result = document.getElementById('result');
 				result.innerHTML = 'Gamertag exists!';
 				result.classList.remove('noresult', 'exists', 'notexists');
+				// Quick fix to replay CSS animation
 				void result.offsetWidth;
 				result.classList.add('center-align', 'exists');
 			} else {
 				var result = document.getElementById('result');
 				result.innerHTML = 'Gamertag does NOT exist!';
 				result.classList.remove('noresult', 'exists', 'notexists');
+				// Quick fix to replay CSS animation
 				void result.offsetWidth;
 				result.classList.add('center-align', 'notexists');
 			}

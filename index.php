@@ -11,7 +11,7 @@
 					<button class="btn waves-effect waves-light" type="submit" name="action">Check Gamertag</button>
 				</form>
 
-				<div class="col s12 noresult" id="result"></div>			
+				<div class="noresult" id="result"></div>			
 
 				<div class="col s12">
 					<p class="center-align" id="description">A simple, lightweight tool to check if an Xbox gamertag is available.</p>
