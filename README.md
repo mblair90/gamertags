@@ -1,5 +1,5 @@
 # Gamertag Checker
 
-THIS APP NO LONGER WORKS!!
+** This app is no longer functional **
 
 A website to check if Xbox gamertags are available.
