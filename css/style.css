@@ -64,7 +64,20 @@ input[type=text] {
 	margin-top: 15px;
 }
 
+#ajax-loader {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
 
+
+/* Media Queries & Keyframes */
 @keyframes shake {
 	0% {transform : translate3d(-5px,0,0);}
 	33% {transform: translate3d(5px,0,0);}
@@ -75,7 +88,9 @@ input[type=text] {
     width: 85%;
   }
 }
+
 @media only screen and (min-width: 993px) {
   .container {
     width: 35%;
   }
+}

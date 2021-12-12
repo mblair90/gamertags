@@ -11,11 +11,16 @@
 					<button class="btn waves-effect waves-light" type="submit" name="action">Check Gamertag</button>
 				</form>
 
-				<div class="noresult" id="result"></div>			
+				<div class="noresult" id="result"></div>
+
+				<div id="ajax-loader">
+					<img src="img/loading.gif" alt="Loader">
+				</div>
 
 				<div class="col s12">
 					<p class="center-align" id="description">A simple, lightweight tool to check if an Xbox gamertag is available.</p>
 				</div>
+
 			</div>
 
 		</div>
